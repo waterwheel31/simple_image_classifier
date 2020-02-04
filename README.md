@@ -5,7 +5,7 @@ A simple Image Classification using Tensorflow(Keras) with pre-trained model.
 This is read an image and return the name of flower with the probability
 
 
-### Images
+### Output Image
 
 ![sample](./sample.png)
 
