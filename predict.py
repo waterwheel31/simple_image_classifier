@@ -41,7 +41,7 @@ def predict(image_path, model, top_k=5):
     
     for i in range(top_k):
         
-        index = rank[i]
+        index = rank[i] + 1
         cls = class_names[str(index)]
         
         probs.append(prob_list[0][index])
